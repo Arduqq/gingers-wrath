@@ -1,0 +1,37 @@
+{
+    "name": "gingers-wrath",
+    "version": "1.0.0",
+    "description": "Simple Phaser shoot-em-up about a mean cat",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack serve --mode development --entry ./src/game.js",
+        "build": "webpack --mode production --entry ./src/game.js --output-path ./dist/game.js",
+        "dev": "webpack --mode development --entry ./src/game.js --output-path ./dist/game.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Arduqq/gingers-wrath.git"
+    },
+    "author": "Lyonid",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Arduqq/gingers-wrath/issues"
+    },
+    "homepage": "https://github.com/Arduqq/gingers-wrath#readme",
+    "dependencies": {
+        "phaser": "^3.55.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.18.10",
+        "@babel/preset-env": "^7.18.10",
+        "babel-loader": "^8.2.2",
+        "copy-webpack-plugin": "^11.0.0",
+        "css-loader": "^6.7.1",
+        "html-loader": "^4.1.0",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.6.1",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.9.3"
+    }
+}
