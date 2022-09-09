@@ -3,6 +3,7 @@ import Phaser, { Game } from 'phaser';
 import BootScene from './scenes/BootScene';
 import GameScene from './scenes/GameScene';
 
+
 const canvas = document.getElementById('game-canvas');
 const config = {
     type: Phaser.WEB_GL,
@@ -12,7 +13,7 @@ const config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: 400 },
+            gravity: { y: 0 },
             debug: true
         }
     },

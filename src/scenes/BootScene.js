@@ -7,7 +7,10 @@ class BootScene extends Scene {
 
     preload() {
         // Load any assets here from your assets directory
-        this.load.image('cat-like', 'assets/cat-like-creature.png');
+        this.load.image('hazer', 'assets/hazer.png');
+        this.load.image('antenna', 'assets/antenna.png');
+        this.load.image('bullet', 'assets/capsule.png');
+        this.load.image('enemy', 'assets/lyo-evil.png');
     }
 
     create() {

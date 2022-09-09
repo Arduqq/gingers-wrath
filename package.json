@@ -4,7 +4,7 @@
     "description": "Simple Phaser shoot-em-up about a mean cat",
     "main": "index.js",
     "scripts": {
-        "start": "webpack serve --mode development --entry ./src/game.js",
+        "serve": "webpack serve --mode development --entry ./src/game.js",
         "build": "webpack --mode production --entry ./src/game.js --output-path ./dist/game.js",
         "dev": "webpack --mode development --entry ./src/game.js --output-path ./dist/game.js"
     },
